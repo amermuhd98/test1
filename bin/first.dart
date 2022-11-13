@@ -6,5 +6,9 @@ void main() {
     print("$name $age $hgt");
   } else {
     print("xdr");
+      print("xdr");
+            print("xdr");
+
+
   }
 }
