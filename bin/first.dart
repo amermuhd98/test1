@@ -1,9 +1,12 @@
 void main() {
-  var name=("Amer Muhammed");
-  int x=14;
-  for(x=0; x<6; x++){
-    print("$name $x");
-
-
-  }
+  int amerEven = 0, muhammedOdd = 0, i;
+  for (i = 0; i <= 100; i++) {
+    if (i % 2 == 0){
+      amerEven += i;
+  } else {
+      muhammedOdd+= i;
 }
+}
+  print("amer Even ; $amerEven");
+  print("muhammed Odd ; $muhammedOdd");
+  }
